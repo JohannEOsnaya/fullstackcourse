@@ -2,10 +2,10 @@ Here is a simple flow chart:
 
 ```mermaid
 graph TD;
-    browser-->server : Get HTML;
+    browser-->server %% Get HTML;
     
-    server-->browser: HTML document;
+    server-->browser %% HTML document;
     
-    browser-->server: Post new note;
-    server-->browser: Get notes
+    browser-->server %% Post new note;
+    server-->browser %% Get notes
 ```
